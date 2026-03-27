@@ -90,7 +90,7 @@ For the example shared bet will be in 2nd result in 3rd,
 
 > [!IMPORTANT]
 > **新品牌必要資訊檢查清單:**
-> 1.  **operator_id** : 營運商 ID
+> 1.  **operatorId** : 營運商 ID
 > 2.  **enable currencies** : 需啟用的幣別
 > 
 > **語言代碼轉換提醒**: 需設定外部語言代碼對應。
