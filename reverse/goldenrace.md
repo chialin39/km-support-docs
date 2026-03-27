@@ -77,11 +77,16 @@
 ### 錢包交易 (Wallet API)
 > **Endpoint Base:** `/api/wallet/`
 
-核心路由包含：`authenticate` / `balance` / `debit` / `credit` / `rollback` / `status` / `terminate`
+核心路由包含：`authenticate` / `balance` / `debit` / `credit` / `rollback` 
 
 #### **核心業務邏輯 (Important Logic):**
 1.  **電子桌面遊戲 (Table Games)**: 我們會將一局內**不同下注**拆分為多個 `debit`。每個下注的 **`roundId`** 下會獨立，因此一筆`debit` 有對應的`credit` 或 `rollback`。
 2.  **老虎機 (Slots)**: 採「一扣一補」模式。當 KM 遊戲伺服器傳送 `roundclosed=true` 時，我方才會發送 `credit` 請求給客戶。
+3.  **`authenticate`**: 玩家要開啟遊戲時，我們會送出此API給客戶驗證是否有效玩家且讓其開啟遊戲。
+4.	**`balance`**: 我們的 /balance API
+5.  **`debit`**: 我們的 /debit API
+6.  **`credit`**: 我們的 /credit API
+7.  **`rollback`**: 我們的 /credit txtype=560
 
 ---
 
