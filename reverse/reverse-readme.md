@@ -17,7 +17,10 @@ graph LR
 graph LR
     A[KM Game server] <--> B[QM API server]
     B <--> C[QM Proxy server]
-	C <--> D[Reverse Client server]
+    C <--> D[Reverse Client server]
+
+    %% 樣式設定：將 C 節點設為黃色背景、黑色文字、加粗邊框
+    style C fill:#FFE082,stroke:#FBC02D,stroke-width:2px,color:#333
 ```
     * **`QM Proxy server`**: 
 		1. 這是個虛擬server，讓我們的 QM API server 先打到這個虛擬server (模擬Seamless流程概念
