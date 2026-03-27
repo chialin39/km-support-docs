@@ -92,7 +92,7 @@
 
 ---
 
-## QM 品牌設定 (Brand Setup)
+## 5. QM品牌設定 (Brand Setup)
 
 * **品牌代碼識別 (Prefix/Brand Code)**:
 	在我方建立Brand會使用 `Prefix`+`operator_id`
