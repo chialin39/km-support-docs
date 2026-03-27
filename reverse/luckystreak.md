@@ -58,7 +58,7 @@
 2.  **老虎機 (Slots)**: 一個 `bet` 可能會有多筆 `result`，與現有一般接入客戶一樣。
 3.  **`validate`**: 玩家要開啟遊戲時，我們會送出此API給客戶。
 4.	**`balance`**: 我們的 /balance API
-5.  **`bet`**、**`result`**: 我們的 /debit、/credit API
+5.  **`bet`、`result`**: 我們的 /debit、/credit API
 6.  **`cancelbet`**: 我們的 /credit txtype=560
 7.  **`endround`**: 我們的 /closeround API
 
