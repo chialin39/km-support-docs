@@ -45,7 +45,7 @@
 
 
 * **備用 Domain**：
-    `待更新`
+    `jhub01.net`
 
 ### 方案 D：單一 Brand 客戶封鎖
 * **操作路徑**：`BO` > `Licensee` > `Brand` > `搜尋特定 Brand` > `Edit Brand` > `Providers` > `KingMidas`
@@ -59,7 +59,7 @@
 `https://support.qm7.`**`inode03hub.net`**`/api/kingmakerqm/`
 
 * **備用 Domain**：
-    `待更新`
+    `jhub01.net`
 
 ---
 *最後更新日期：2026-03-27*
