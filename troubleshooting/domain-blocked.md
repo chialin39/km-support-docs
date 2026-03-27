@@ -17,22 +17,50 @@
 
 ### 方案 A：舊版開啟方法域名封鎖
 * **動作**：如確認域名於該國家IP無法開啟，請客戶端工程師將程式碼中的域名更換為最新的 **備用 Domain**。
+* **備用 Domain**：
+    `lobby.qmgames.co`
+	`lobby.qmgames.info`
+	`lobby.maesq.net`
+	`lobby.maessemagq.net`
 
 ### 方案 B：新版啟動遊戲API返回域名封鎖
 * **操作路徑**：`BO` > `System` > `Endpoint`
 * **設定對象**：選擇對應 Reseller (例如: **LuckyStreak**) > `KingMidas`
 * **修改位置**：`KingMidas World` & `Kaiun World` -> **`Aggregator Endpoint`**
+* **備用 Domain**：
+    `https://lobby.qmseaagg.net`
 
+	
 ### 方案 C：遊戲商 (Game Provider) 域名封鎖 (高頻)
 > 💡 **註**：土耳其地區 (如客戶 LuckyStreak) 最常發生此類封鎖。
 * **操作路徑**：`BO` > `System` > `Endpoint`
 * **設定對象**：選擇對應 Reseller (例如: **LuckyStreak**) > `KingMidas`
 * **修改位置**：`KingMidas World` & `Kaiun World` -> **`Endpoint`**
+* **範例**：
+```
+假設原本設置是 
+https://support.qm7.input04node.net/api/kingmakerqm/
+更換域名，改main domain就好，例如備用domain是inode03hub.net
+就設置成以下
+https://support.qm7.inode03hub.net/api/kingmakerqm/
+```
+* **備用 Domain**：
+    `待更新`
 
 ### 方案 D：單一 Brand 客戶封鎖
 * **操作路徑**：`BO` > `Licensee` > `Brand` > `搜尋特定 Brand` > `Edit Brand` > `Providers` > `KingMidas`
 * **修改位置**：`KingMidas World` -> **`Game Provider Endpoint`**
 * **重要**：Desktop 與 Mobile 兩個欄位皆須同步更改。
+* **範例**：
+```
+假設原本設置是 
+https://support.qm7.input04node.net/api/kingmakerqm/
+更換域名，改main domain就好，例如備用domain是inode03hub.net
+就設置成以下
+https://support.qm7.inode03hub.net/api/kingmakerqm/
+```
+* **備用 Domain**：
+    `待更新`
 
 ---
-*最後更新日期：2026-03-26*
+*最後更新日期：2026-03-27*
