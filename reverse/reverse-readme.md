@@ -23,5 +23,9 @@ graph LR
     style C fill:#FFE082,stroke:#FBC02D,stroke-width:2px,color:#333
 ```
     * **`QM Proxy server`**: 
-		1. 這是個虛擬server，讓我們的 QM API server 先打到這個虛擬server (模擬Seamless流程概念
+		1. 這是個虛擬server，讓我們的 QM API server 先打到這個虛擬server (模擬Seamless流程概念)
 		2. 虛擬Server 會執行Reverse API的事務，送出API請求給Reverse Client Server
+		
+
+---
+最後更新：2026-03-27
