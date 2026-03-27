@@ -6,7 +6,7 @@
   * [Bot - HTML語法指南](clientsupport/announce-html-guide.md)
 
 * **Reverse客戶支援**
-  * [Reverse 說明](reverse/readme.md)
+  * [Reverse 說明](reverse/reverse-readme.md)
   * [GoldenRace](reverse/goldenrace.md)
   * [LuckyStreak](reverse/luckystreak.md)
 
