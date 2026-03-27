@@ -17,7 +17,7 @@
 
 ### 3. 紀錄關線日期
 * **操作位置**：`搜尋特定 Brand` > Brand資料右方 > **點一下 `✏`按鈕** > Description
-* **範例**：原本Descrption內容後方加上日期 **`Request to close at 20260326`**
+* **範例**：原本Descrption內容後方加上日期 **`Request to close at 當天日期`**
 
 
 ---
