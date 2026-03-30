@@ -9,6 +9,8 @@
   * [Reverse 說明](reverse/reverse-readme.md)
   * [GoldenRace](reverse/goldenrace.md)
   * [LuckyStreak](reverse/luckystreak.md)
+  * [GameKong](reverse/gamekong.md)
+  
 
 * **故障排除**
   * [域名封鎖處理](troubleshooting/domain-blocked.md)
