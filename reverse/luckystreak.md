@@ -45,10 +45,10 @@
 
 ## 3. API 路由與規範 (SW API)
 
-### 🩺 基礎連通性
+### 基礎連通性
 * **`/api/games`** : 客戶會送出此API獲取完整遊戲列表。
 
-### 💰 錢包交易 (Wallet API)
+### 錢包交易 (Wallet API)
 > **Endpoint Base:** `/api/wallet/`
 
 核心路由包含：`validate` / `balance` / `bet` / `result` / `cancelbet` / `endround`
