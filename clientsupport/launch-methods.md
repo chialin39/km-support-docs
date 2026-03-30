@@ -1,4 +1,4 @@
-# 🎮 遊戲開啟方法 (Game Launch Methods)
+# 遊戲開啟方法 (Game Launch Methods)
 
 本文件說明 KingMidas 系統目前支援的兩種啟動機制。兩者最大的差異在於 **「域名 (Domain) 的取得方式」** 與 **「維運靈活性」**。
 
