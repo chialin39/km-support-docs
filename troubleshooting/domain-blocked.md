@@ -33,7 +33,7 @@
 * **備用 Domain**：
     * `https://lobby.qmseaagg.net`
 
-### 方案 C：遊戲商 (Game Provider) 域名封鎖 (高頻)
+### 方案 C：遊戲商域名封鎖 (高頻)
 * **操作路徑**：`BO` > `System` > `Endpoint`
 * **設定對象**：選擇對應 Reseller (例如: **LuckyStreak**) > `KingMidas`
 * **修改位置**：`KingMidas World` & `Kaiun World` -> **`Endpoint`**
@@ -45,7 +45,7 @@
 > [!NOTE]
 > 土耳其地區 (如客戶 LuckyStreak) 最常發生此類封鎖。
 
-### 方案 D：單一 Brand 客戶封鎖
+### 方案 D：遊戲商域名封鎖 - 單一 Brand 客戶封鎖
 * **操作路徑**：`BO` > `Licensee` > `Brand` > `搜尋特定 Brand` > `Edit Brand` > `Providers` > `KingMidas`
 * **修改位置**：`KingMidas World` -> **`Game Provider Endpoint`** (需同步修改 Desktop 與 Mobile 欄位)。
 * **範例說明**：
