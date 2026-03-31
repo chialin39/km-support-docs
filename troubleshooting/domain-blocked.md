@@ -39,8 +39,8 @@
 * **修改位置**：`KingMidas World` & `Kaiun World` -> **`Endpoint`**
 * **範例說明**：
     * 原設置：`https://support.qm7.`**`input04node.net`**`/api/kingmakerqm/`
-    * 更換後：`https://support.qm7.`**`inode03hub.net`**`/api/kingmakerqm/`
-* **最新備用 Domain**：`jhub01.net`
+    * 更換後：`https://support.qm7.`**`jmesh02node.net`**`/api/kingmakerqm/`
+* **最新備用 Domain**：`jmesh02node.net`
 
 > [!NOTE]
 > 土耳其地區 (如客戶 LuckyStreak) 最常發生此類封鎖。
@@ -50,8 +50,8 @@
 * **修改位置**：`KingMidas World` -> **`Game Provider Endpoint`** (需同步修改 Desktop 與 Mobile 欄位)。
 * **範例說明**：
     * 原設置：`https://support.qm7.`**`input04node.net`**`/api/kingmakerqm/`
-    * 更換後：`https://support.qm7.`**`inode03hub.net`**`/api/kingmakerqm/`
-* **最新備用 Domain**：`jhub01.net`
+    * 更換後：`https://support.qm7.`**`jmesh02node.net`**`/api/kingmakerqm/`
+* **最新備用 Domain**：`jmesh02node.net`
 
 ---
-*最後更新日期：2026-03-30*
+*最後更新日期：2026-03-31*
