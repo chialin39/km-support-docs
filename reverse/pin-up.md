@@ -60,8 +60,7 @@
 2.  **老虎機 (Slots)**: 採「一扣一補」模式。當 KM 遊戲伺服器傳送 `roundclosed=true` 時，我方才會發送 `credit` 請求給客戶。
 3.  **`GET session`**: 我們的 /balance API，Launcher API也會送出該請求進行驗證
 4.	**`POST action`**: 我們的 /debit、/credit API，透過同一支 action 接口, 裡面的 `transactionType` 判斷是下注/派彩/取消交易
-
-    *註：正式環境之 API Endpoint皆保持一致。*
+      *註：正式環境之 API Endpoint皆保持一致。*
 
 ---
 
